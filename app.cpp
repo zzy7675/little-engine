@@ -2,7 +2,7 @@
 
 
 namespace vl {
-    App::App(): window( WIDTH, HEIGHT, "Hello Vulkan!") {}
+    App::App() {}
     App::~App() {}
     void App::run() {
         while (!window.shouldClose()) {
